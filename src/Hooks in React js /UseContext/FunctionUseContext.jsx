@@ -7,6 +7,7 @@ function FunctionUseContext(props) {
   return (
     <div>
         <h1>CUseContext</h1>
+        <h1>{counter}</h1>
     <h1>{counterContext}</h1></div>
   )
 }

@@ -1,7 +1,6 @@
 import React, { useReducer, useRef, useEffect } from "react";
 // debugger;
 
-debugger;
 const UseReducer = () => {
   const preCountValue = useRef();
   const initialState = { count: 0, preCount: 0, sumCount: 0 };
@@ -48,7 +47,7 @@ const UseReducer = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   // const handleChange = (e) => {
-   // e.preventdefault();
+   // e.preventDefault();
   //   const payload = { type: "ADD", payload: parseInt(e.target.value) };
 
   //   dispatch(payload);

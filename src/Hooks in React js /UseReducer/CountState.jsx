@@ -18,4 +18,4 @@ console.log("count>>",count)
   )
 }
 
-export default CountState
+export default CountState;

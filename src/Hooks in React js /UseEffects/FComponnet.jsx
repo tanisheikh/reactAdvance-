@@ -1,4 +1,11 @@
 import React, { useState, useEffect } from "react";
+// 1. Create an app, where a user can track the number of times they clicked a button
+// on clicking on the button the title of the page should change to Clicked ${count} times
+
+// 2. create a simple todo app
+// Use mock server to retrieve todo list when the component mounts
+// there should be loading and error states managed and shown to the UI( mandatory )
+// build a pagination component that will change the page and fetch data for you
 
 function FComponnet() {
   const date = new Date().toISOString();
